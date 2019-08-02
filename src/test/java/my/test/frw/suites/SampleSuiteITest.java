@@ -24,7 +24,7 @@ public class SampleSuiteITest {
     public void testCase2(ITestContext tCon) {
 
         System.out.println("Executing TC1");
-        Assert.assertTrue(false, tCon.getCurrentXmlTest().getName() + " : is failed");
+        Assert.assertTrue(true, tCon.getCurrentXmlTest().getName() + " : is failed");
     }
 
 

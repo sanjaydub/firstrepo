@@ -24,17 +24,11 @@
     </properties>
 
     <dependencies>
+        <!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
         <dependency>
-            <groupId>net.anthavio</groupId>
-            <artifactId>phanbedder-1.9.8</artifactId>
-            <version>1.0.0</version>
-            <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.github.detro</groupId>
-            <artifactId>phantomjsdriver</artifactId>
-            <version>1.2.0</version>
+            <groupId>io.rest-assured</groupId>
+            <artifactId>rest-assured</artifactId>
+            <version>3.0.0</version>
             <scope>test</scope>
         </dependency>
 
@@ -52,12 +46,7 @@
             <scope>provided</scope>
         </dependency>
 
-        <dependency>
-            <groupId>com.github.jsdevel</groupId>
-            <artifactId>testng-selenium</artifactId>
-            <version>0.10.0</version>
-            <scope>test</scope>
-        </dependency>
+
     </dependencies>
 
     <build>
