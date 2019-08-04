@@ -23,7 +23,14 @@ public class SampleSuiteITest {
     @Test
     public void testCase2(ITestContext tCon) {
 
-        System.out.println("Executing TC1");
+        System.out.println("Executing TC2");
+        Assert.assertTrue(true, tCon.getCurrentXmlTest().getName() + " : is failed");
+    }
+
+    @Test
+    public void testCase3(ITestContext tCon) {
+
+        System.out.println("Executing TC3");
         Assert.assertTrue(true, tCon.getCurrentXmlTest().getName() + " : is failed");
     }
 
