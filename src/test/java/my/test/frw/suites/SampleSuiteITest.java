@@ -16,12 +16,6 @@ import io.restassured.RestAssured;
 import java.lang.reflect.Method;
 
 public class SampleSuiteITest {
-    @Test
-    public void testCase1(ITestContext tCon) {
-
-        System.out.println("Executing TC1");
-        Assert.assertTrue(true, tCon.getCurrentXmlTest().getName() + " : is failed");
-    }
 
     @Test
     public void testCase2(ITestContext tCon) {
