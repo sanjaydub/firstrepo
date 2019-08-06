@@ -65,6 +65,9 @@ public class SampleSuiteITest {
         Assert.assertTrue(response.getStatusCode()==200, tCon.getCurrentXmlTest().getName() + " : is failed");
     }
 
+    @Test
+    public void testJobDetails1(ITestContext tCon) {}
+
 
 
     @AfterMethod(alwaysRun = true)
