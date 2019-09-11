@@ -1,12 +1,7 @@
 package my.test.frw.suites;
-
-
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertNotNull;
-
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
-import org.openqa.selenium.lift.TestContext;
+
 import org.testng.Assert;
 import org.testng.ITestContext;
 import org.testng.annotations.AfterMethod;
@@ -51,11 +46,6 @@ public class SampleSuiteITest {
         System.out.println("Response Body is =>  " + responseBody);
 
         System.out.println(response.print());
-
-
-
-
-
         Assert.assertTrue(response.getStatusCode()==200, tCon.getCurrentXmlTest().getName() + " : is failed");
     }
 
