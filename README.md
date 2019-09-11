@@ -1,8 +1,8 @@
-TestNG
-Maven
-Git - Gitgub
-Rest-Assured
-Interecting Jekins using API
-Jenkins Jobs - CD and CT
-Jenkins TestNg report integration
-Jenkins JUnit report integration
+TestNG </br>
+Maven </br>
+Git - Gitgub </br>
+Rest-Assured </br>
+Interecting Jekins using API </br>
+Jenkins Jobs - CD and CT </br>
+Jenkins TestNg report integration </br>
+Jenkins JUnit report integration </br>
