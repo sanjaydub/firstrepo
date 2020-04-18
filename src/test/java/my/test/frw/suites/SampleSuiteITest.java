@@ -32,7 +32,7 @@ public class SampleSuiteITest {
         // to the server. The server is specified by the BaseURI that we have
         // specified in the above step.
         RequestSpecification httpRequest = RestAssured.given();
-        httpRequest.auth().preemptive().basic("sanjaydub","Cybage123");
+        httpRequest.auth().preemptive().basic("admin","admin");
 
         // Make a request to the server by specifying the method Type and the method URL.
         // This will return the Response from the server. Store the response in a variable.
